@@ -1,0 +1,6 @@
+#SBATCH --job-name=test_submitjob
+#SBATCH --output=test_submitjob.%j.out
+#SBATCH --error=test_submitjob.%j.out
+#SBATCH -p interactive-gpu
+##SBATCH --nodes=1
+
